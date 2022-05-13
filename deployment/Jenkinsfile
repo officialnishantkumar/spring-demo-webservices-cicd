@@ -64,7 +64,7 @@ sh "'${mvnHome}/bin/mvn' sonar:sonar"
 } else {
 
 
-bat(/"${mvnHome}\bin\mvn" sonar:sonar/)
+bat(/"${mvnHome}\bin\mvn" sonar)
 
 
 }
